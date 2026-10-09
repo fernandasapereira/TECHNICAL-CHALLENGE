@@ -10,7 +10,7 @@ Robot Framework and SeleniumLibrary tests for file upload, file download, and JS
 | `resources/` | Keywords and page actions. The tests stay short. |
 | `data/` | The original CSV and the JSON files. |
 | `downloads/` | Where Chrome saves downloaded files. Cleared at the start of the download suite. |
-| `output/` | Robot results and the timestamped CSV copy. Only `log.html` is kept in Git. |
+| `output/` | Robot results and the timestamped CSV copy. |
 
 The browser opens in the suite setup and closes in the suite teardown, so tests in the same suite share one page.
 
