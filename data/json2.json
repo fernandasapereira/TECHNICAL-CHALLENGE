@@ -1,0 +1,9 @@
+{
+  "suite": "qa-automation",
+  "environment": "local",
+  "checks": {
+    "upload": true,
+    "download": true,
+    "json": true
+  }
+}
