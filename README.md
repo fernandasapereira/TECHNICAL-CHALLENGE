@@ -74,7 +74,7 @@ Checks that the `checks` object in `json1` is different from the one in `json3`.
 
 
 
-##### How to Run ####
+## How to Run 
 
 ## Set up the virtual environment
 
@@ -84,11 +84,13 @@ Python 3.10 or higher and Google Chrome are required. Open a terminal in the pro
 python -m venv .venv
 ```
 
-   [NOTE: If PowerShell blocks the activation script, allow it for the current window only by running the command: ]
 
-        ```powershell
-        Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-        ```
+NOTE: If PowerShell blocks the activation script, allow it for the current window only by running the command: 
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
 
 Activate the environment, install the test libraries, and confirm Robot Framework:
 
