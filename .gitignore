@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+downloads/*
+output/*
+!output/log.html
